@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.fiap.persistnciadedados">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="._13_1.Configuracoes_do_arquivo_Bundle"
+            android:label="Configurações do arquivo Bundle">
+        </activity>
+
+        <activity
+            android:name="._13_1.Configuracoes_do_arquivo_Bundle_Tela1"
+            android:label="Configurações do Bundle Tela 1">
+        </activity>
+
+        <activity
+            android:name="._13_1.Configuracoes_do_arquivo_Bundle_Tela2"
+            android:label="Configurações do Bundle Tela 2">
+        </activity>
+
+        <activity
+            android:name="._13_2.Persistindo_dados_com_SharedPreferences"
+            android:label="Persistindo dados com SharedPreferences">
+        </activity>
+
+        <activity
+            android:name="._13_3.Como_trabalhar_com_JSON"
+            android:label="Como trabalhar com JSON">
+        </activity>
+
+        <activity
+            android:name="._13_4.Views_personalizadas_com_RecyclerView"
+            android:label="Views personalizadas com RecyclerView">
+        </activity>
+
+        <activity
+            android:name="._13_5.Personalizando_celulas_em_uma_View"
+            android:label="Personalizando células em uma View">
+        </activity>
+
+        <activity
+            android:name="._13_6.Persistencia_de_dados_com_Room"
+            android:label="Persistência de dados com Room">
+        </activity>
+
+    </application>
+
+</manifest>

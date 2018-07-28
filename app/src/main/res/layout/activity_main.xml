@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="configuracoes_do_arquivo_bundle"
+        android:text="13.1 Configurações do arquivo Bundle"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="persistindo_dados_com_sharedpreferences"
+        android:text="13.2 Persistindo dados com SharedPreferences"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="como_trabalhar_com_json"
+        android:text="13.3 Como trabalhar com JSON"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="views_personalizadas_com_recyclerview"
+        android:text="13.4 Views personalizadas com RecyclerView"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="personalizando_celulas_em_uma_view"
+        android:text="13.5 Personalizando células em uma View"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="persistencia_de_dados_com_room"
+        android:text="13.6 Persistência de dados com Room"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

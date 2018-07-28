@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Digite o seu nome completo:"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:inputType="textCapWords"
+        android:background="@drawable/box_rounded_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:text="Qual sua idade?"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:inputType="number"
+        android:background="@drawable/box_rounded_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:text="Digite o seu RM:"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/rm"
+        android:inputType="number"
+        android:background="@drawable/box_rounded_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp" />
+
+    <Button
+        android:onClick="gravarDadosRoom"
+        android:text="Gravar dados -> ROOM"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/box"
+        android:background="@drawable/box_rounded_corners"
+        android:typeface="monospace"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="10dp" />
+
+</LinearLayout>
